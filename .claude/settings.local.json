@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Start-Process \"c:\\\\Users\\\\fredd\\\\OneDrive\\\\Documentos\\\\Claude Project\\\\LP GF Recebiveis\\\\index.html\")",
+      "PowerShell(Start-Process \"c:\\\\Users\\\\fredd\\\\OneDrive\\\\Documentos\\\\Claude Project\\\\LP GF Recebiveis\\\\index.html\")",
+      "PowerShell(& \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\" \"c:\\\\Users\\\\fredd\\\\OneDrive\\\\Documentos\\\\Claude Project\\\\LP GF Recebiveis\\\\index.html\")",
+      "PowerShell(Get-Process chrome -ErrorAction SilentlyContinue)",
+      "PowerShell(& \"C:\\\\Program Files \\(x86\\)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\" \"c:\\\\Users\\\\fredd\\\\OneDrive\\\\Documentos\\\\Claude Project\\\\LP GF Recebiveis\\\\index.html\")",
+      "PowerShell(Get-Process msedge -ErrorAction SilentlyContinue)",
+      "PowerShell(cmd /c start \"\" \"c:\\\\Users\\\\fredd\\\\OneDrive\\\\Documentos\\\\Claude Project\\\\LP GF Recebiveis\\\\index.html\")",
+      "PowerShell(Get-Process | Where-Object {$_.Name -match \"chrome|edge|firefox|brave|opera\"} | Select-Object Name, Id)"
+    ]
+  }
+}
