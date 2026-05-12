@@ -158,7 +158,7 @@ const Hero = ({ headline }) => (
               <a href="#contato" className="btn btn-primary btn-lg">
                 Quero recuperar meus valores <Icon name="arrow-right" size={16} />
               </a>
-              <a href="https://wa.me/5511999999999" className="btn btn-ghost btn-lg" target="_blank" rel="noopener">
+              <a href="https://wa.me/5511914271753?text=Ol%C3%A1%21+Tenho+interesse+em+recuperar+minha+carteira+de+receb%C3%ADveis+com+a+GF+Receb%C3%ADveis.+Poderia+me+dar+mais+informa%C3%A7%C3%B5es%3F" className="btn btn-ghost btn-lg" target="_blank" rel="noopener">
                 <Icon name="whatsapp" size={16} /> Falar no WhatsApp
               </a>
             </div>
@@ -536,7 +536,7 @@ const Footer = () => {
           <div>
             <h4>Contato</h4>
             <ul>
-              <li><a href="https://wa.me/5511999999999"><Icon name="whatsapp" size={14} /> &nbsp;(11) 99999-9999</a></li>
+              <li><a href="https://wa.me/5511914271753?text=Ol%C3%A1%21+Tenho+interesse+em+recuperar+minha+carteira+de+receb%C3%ADveis+com+a+GF+Receb%C3%ADveis.+Poderia+me+dar+mais+informa%C3%A7%C3%B5es%3F"><Icon name="whatsapp" size={14} /> &nbsp;(11) 91427-1753</a></li>
               <li><a href="mailto:contato@gfrecebiveis.com.br"><Icon name="mail" size={14} /> &nbsp;contato@gfrecebiveis.com.br</a></li>
               <li><a href="tel:+551133334444"><Icon name="phone" size={14} /> &nbsp;(11) 3333-4444</a></li>
             </ul>
@@ -559,7 +559,7 @@ const Footer = () => {
 };
 
 const FabWhatsapp = () => (
-  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" className="fab-whatsapp" aria-label="Falar no WhatsApp">
+  <a href="https://wa.me/5511914271753?text=Ol%C3%A1%21+Tenho+interesse+em+recuperar+minha+carteira+de+receb%C3%ADveis+com+a+GF+Receb%C3%ADveis.+Poderia+me+dar+mais+informa%C3%A7%C3%B5es%3F" target="_blank" rel="noopener" className="fab-whatsapp" aria-label="Falar no WhatsApp">
     <Icon name="whatsapp" size={20} />
     <span>Quero recuperar</span>
     <span className="ring"></span>
