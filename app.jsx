@@ -544,7 +544,7 @@ const Footer = () => {
           <div>
             <h4>Redes</h4>
             <ul>
-              <li><a href="#"><Icon name="instagram" size={14} /> &nbsp;@gfrecebiveis</a></li>
+              <li><a href="https://www.instagram.com/gfrecebiveis?igsh=YnN1ejcybHdrbnZw&utm_source=qr" target="_blank" rel="noopener"><Icon name="instagram" size={14} /> &nbsp;@gfrecebiveis</a></li>
               <li><a href="#"><Icon name="linkedin" size={14} /> &nbsp;LinkedIn</a></li>
             </ul>
           </div>
