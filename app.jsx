@@ -558,7 +558,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>GF Recebíveis · CNPJ 00.000.000/0001-00</span>
+          <span>GF Recebíveis</span>
           <span>© 2026 · Todos os direitos reservados</span>
         </div>
       </div>
