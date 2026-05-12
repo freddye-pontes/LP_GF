@@ -545,8 +545,7 @@ const Footer = () => {
             <h4>Contato</h4>
             <ul>
               <li><a href="https://wa.me/5511914271753?text=Ol%C3%A1%21+Tenho+interesse+em+recuperar+minha+carteira+de+receb%C3%ADveis+com+a+GF+Receb%C3%ADveis.+Poderia+me+dar+mais+informa%C3%A7%C3%B5es%3F"><Icon name="whatsapp" size={14} /> &nbsp;(11) 91427-1753</a></li>
-              <li><a href="mailto:administrativo@gfrecebiveis.com.br"><Icon name="mail" size={14} /> &nbsp;administrativo@gfrecebiveis.com.br</a></li>
-              <li><a href="tel:+551133334444"><Icon name="phone" size={14} /> &nbsp;(11) 3333-4444</a></li>
+              <li><a href="mailto:administrativo@gfrecebiveis.com.br" style={{ display: 'flex', alignItems: 'center', gap: 6 }}><Icon name="mail" size={14} /><span>administrativo@gfrecebiveis.com.br</span></a></li>
             </ul>
           </div>
           <div>
