@@ -353,14 +353,6 @@ const Proof = () => (
       </div>
 
       <div className="proof-grid">
-        <div className="proof-stat tone-orange">
-          <div className="num">R$ <Counter end={120} /><span className="unit">k</span></div>
-          <div className="lbl">recuperados em 60 dias para uma distribuidora regional de alimentos</div>
-        </div>
-        <div className="proof-stat tone-red">
-          <div className="num"><Counter end={73} /><span className="unit">%</span></div>
-          <div className="lbl">de recuperação na carteira de uma clínica em 90 dias</div>
-        </div>
         <div className="case-strip">
           <span className="lbl">Nichos atendidos</span>
           <div className="row">
