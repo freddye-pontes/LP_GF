@@ -74,6 +74,14 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
+    const volumeLabel = {
+      '0-50':    'até R$ 50 mil',
+      '50-200':  'entre R$ 50 mil e R$ 200 mil',
+      '200-500': 'entre R$ 200 mil e R$ 500 mil',
+      '500+':    'acima de R$ 500 mil',
+    }[form.volume] || form.volume;
+    const msg = `Olá! Me chamo ${form.name}, da empresa ${form.company}. Tenho interesse em recuperar minha carteira de recebíveis (volume aproximado em atraso: ${volumeLabel}). Poderia me dar mais informações?`;
+    window.open('https://wa.me/5511914271753?text=' + encodeURIComponent(msg), '_blank');
   };
 
   return (
